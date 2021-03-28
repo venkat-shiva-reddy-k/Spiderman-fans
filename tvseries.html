@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>Spiderman fans club - Home</title>
+    <link rel="stylesheet" href="stylesheets/alternateversions.css" />
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="icon" href="images/Spider-Man-Shattered.png">
+	<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+	<script src="scripts/signup.js"></script>
+	<script src="scripts/myScript.js"></script>
+</head>
+
+<body>
+
+        <nav>
+            <ul>
+                <li><a id="home" href="home.html">Home</a></li>
+                <li><a id="av" href="alternateversions.html">Alternate Versions</a></li>
+                <li><a id="movies" href="movies.html">Movies</a></li>
+                <li><a id="tv" href="tvseries.html">Tv Series</a></li>
+                
+				<li><a id="games" href="games.html">Games</a></li>
+				<li><a id="signout" href="#" onclick="SignOut()">SignOut</a></li>
+            </ul>
+        </nav>
+		<aside class="left">
+		<img src="images/black_suit_spider-man.png" style="width:195px;height:400px;" /> 
+        </aside>
+		<aside class="right">
+		<img src="images/Spidey_1.png" style="width:195px;height:900px;" /> 
+        </aside>
+		
+		
+		<div id="logoTxt">
+           <h3></h3>
+           <h2><span></span></h2>
+        </div>
+		<div id="fans">
+		    <h1>FANS CLUB</h1>
+		</div>
+		<div id="logo">
+           <h1><span></span></h1>
+           <h2><span></span></h2>
+        </div>
+		
+	 <div id="para">
+		   <div id="head"> <h1>Spider-Man in television</h1>
+		   </div>
+		
+		
+		   <br />
+		
+		
+	    <div id="head"> <h3>Spider-Man – 1967 animated series</h3></div>
+		<p>The first animated series was simply titled Spider-Man, and ran on ABC from 1967 to 1970. The show's first season was produced by Grantray-Lawrence Animation, which soon went bankrupt. In 1968, animator Ralph Bakshi took over. Bakshi's episodes, which suffered from extremely low budgets, were stylized and featured dark ominous settings and pervasive background music. One episode reused complete background animation, characters, and storyline from an episode of Rocket Robin Hood. The series may be best remembered for its theme song. Spider-Man was voiced by Paul Soles.</p>
+		<br />
+		
+		<div id="head"> <h3>The Electric Company – Spidey Super Stories</h3></div>
+		<p>Spider-Man was also an occasional character in the 1970s children's educational show The Electric Company which presented brief tales using a combination of animation and live action called the Spidey Super Stories. In addition, in the educational spirit of the series, Spider-Man (portrayed by Danny Seagren) communicates only in speech balloons for the viewer to read. The theme song was written by composer Gary William Friedman. Comic book adaptations of these stories were included in a companion kids-oriented comic book, Spidey Super Stories, published by Marvel.</p>
+		<br />
+		
+		<div id="head"> <h3>The Amazing Spider-Man – 1977 live-action TV series and overseas films</h3></div>
+		<p>In 1977, a short-lived live action television series was produced called The Amazing Spider-Man, starring Nicholas Hammond in the title role. Although the series earned good ratings, fans complained about its television budget production values and its writing, which neither followed the comics' spirit nor provided adventures that were distinctively appropriate for the character. It also suffered from a sporadic broadcast schedule. The CBS Television Network canceled it, along with Wonder Woman, to avoid being called "the superhero network." Several episodes from this series were released as full-length motion pictures outside the U.S. Three movies were released overseas, including Spider-Man (the original TV-movie pilot from 1976), Spider-Man Strikes Back (1978), and The Dragon's Challenge (1979).</p>
+		<br />
+		
+		<div id="head"> <h3>Spider-Man – 1978 tokusatsu series</h3></div>
+		<p>In 1978, a Spider-Man live-action tokusatsu series was produced for Japanese television by Toei Company. Due to a request by Bandai that the show include giant robots and vehicles, it was not a faithful adaptation. Instead of Peter Parker, Spider-Man is Takuya Yamashiro. It was not related to Ryoichi Ikegami's earlier 1970 Spider-Man manga. Toei planned to follow the series with a new show starring a Japanese counterpart of Captain America called "Captain Japan", which was revamped into Battle Fever J, the first official installment of Toei's Super Sentai franchise (barring the retroactive recognition of Himitsu Sentai Gorenger and JAKQ Dengekitai in later years). The concept of costumed superheroes piloting giant robots introduced in the Japanese Spider-Man was carried over to Battle Fever J, which became a tradition in the Super Sentai franchise.</p>
+		<br />
+		
+		
+		<div id="head"> <h3>Spider-Woman</h3></div>
+		<p>Spider-Man guest starred in the episodes "Pyramids of Terror" and "The Kongo Spider". He was voiced by Paul Soles.</p>
+		<br />
+		
+		<div id="head"> <h3>Spider-Man – 1981 animated series</h3></div>
+		<p>In 1981, with the creation of the animation studio Marvel Productions Ltd., Marvel endeavored to translate more of their comic characters to television. To garner the attention of the major networks, Marvel first created a new syndicated Spider-Man cartoon that was partially based on the old 1960s show. The strategy worked, and NBC became interested in having their own Spider-Man cartoon. Spider-Man was voiced by Ted Schwartz.</p>
+		<br />
+        
+		<div id="head"> <h3>Spider-Man and His Amazing Friends – 1981 animated series</h3></div>
+		<p>Towards this end the cartoon series Spider-Man and His Amazing Friends was created for NBC featuring Spider-Man, Iceman of the X-Men, and a new character, Firestar. Actor Dan Gilvezan gave voice to this incarnation of the wall-crawler. This series also featured a number of Marvel guest stars, and shared many of its character designs with the solo Spider-Man show produced just before it.</p>
+		<br />
+		
+		<div id="head"> <h3>Spider-Man – 1994 animated series</h3></div>
+		<p>IThe 1994, Spider-Man animated series was made for the Fox Network, (to accompany their X-Men series) with Christopher Daniel Barnes providing the webslinger's voice (in one episode Peter Mark Richman voiced old Peter, partially replacing Barnes). This series had a bigger budget and used a novel system of one large story arc per season developed by John Semper. As a result, each of the individual 65 episodes (starting with season 2) were called "chapters". This series more closely reflected the comic book as it focused on the personal conflict Peter Parker felt as Spider-Man, instead of following the action-oriented shows that preceded it. This was the longest Spider-Man series, with 65 episodes in five seasons, until 2012's "Ultimate Spider-Man" surpassed it.Several episodes were consolidated into direct-to-video DVD films, such as Daredevil vs. Spider-Man.</p>
+		<br />
+		
+		<div id="head"> <h3>Spider-Man Unlimited – 1999 animated series</h3></div>
+		<p>In 1999, an animated series named Spider-Man Unlimited was developed for Fox (intended to be an Expanded Universe final season of the 1994 show) in which Spider-Man is transported to an animated Counter-Earth inspired by the one created by the High Evolutionary in early 1970s comics. This series was cancelled after one season. Here Spider-Man was voiced by Rino Romano.</p>
+ 	    <br />
+		   
+		<div id="head"> <h3>Spider-Man: The New Animated Series – 2003 animated series</h3></div>
+		<p>In 2003, another television series adaptation, Spider-Man: The New Animated Series this time using computer animation was produced by Mainframe Entertainment for Sony Pictures Television and broadcast on MTV; it featured characters and continuity from the 2002 Spider-Man film, as well as Michael Clarke Duncan voicing the Kingpin, depicted in reprising his role from the 2003 live action Daredevil film adaptation, with Michael Clarke Duncan reprising his role. Lasting over 13 episodes. Spider-Man was voiced by Neil Patrick Harris.</p>
+		<br />
+		   
+		<div id="head"> <h3>The Spectacular Spider-Man – 2008 animated series</h3></div>
+		<p>This television series is a blend of the early Lee/Ditko and Romita The Amazing Spider-Man stories and the Bendis/Bagley 
+		Ultimate Spider-Man . But it leans more towards Lee/Ditko, and for anyone who's read the classic '60s story, there's plenty to make you smile in recognition - from Aunt May's money woes to the use of the Spider-Signal, the direct nods are clear. 
+        Peter Parker is a teenager living in contemporary New York, as in Bendis' Ultimate version and the early Lee/Ditko version, but he dates his best friend Gwen Stacy, as in the original The Amazing Spider-Man comics, and Mary Jane Watson is a minor love interest, at least not exclusively. Many of Peter's original supporting cast, including Flash Thompson, have been translated 
+        into modern terms but are still to true to its characters in the comics.. Noteworthy is the fact that at least some of 
+		Parker's former supporting cast members are non-white. Liz Allen is Hispanic and Ned Lee (formerly "Leeds") is Korean. 
+		This reflects the tendency in Marvel's Ultimate line to introduce more diversity by altering existing characters (e.g., 
+		Nick Fury is black, Colossus is homosexual, etc.). The first season follows several classic plot arcs familiar to long-time 
+		Spider-Man readers: Venom's creation and his complex relationship with Eddie Brock (retconned into the early part of 
+		Spider-Man's career just like in the Ultimate version), his budding romance with Gwen Stacy, and the first appearance of the 
+		Green Goblin. Season 1 and Season 2 of the series were aired, each containing 13 episodes. Though successful, the series 
+		ended when Sony Pictures relinquished its rights, which it had licensed from Marvel, to produce animated works using 
+		Spider-Man and associated characters. Spider-Man was voiced by Josh Keaton. This version of Peter/Spider-Man himself 
+		is most influenced by the both original '60s stories and the ultimate version. just like the original comics version, 
+		He's filled with plenty of angst over trying to help support May (he manages to get a job as a freelance photographer 
+		for the Daily Bugle through selling photos to a loudmouth,irascible, egotistical, and gruff publisher who believes that 
+		spider-man is a masked menace who needs to be arrested.), and at school he's a science bookworm getting crap from Flash 
+		Thompson, while swooning over girls out of his league. But as Spider-Man, he's having a lot of fun, and filled with one 
+		joke after another, and has to engender the editorial wrath of newspaper publisher J. Jonah Jameson.</p>
+		<br />
+		
+		<div id="head"> <h3>Ultimate Spider-Man – 2012 animated series</h3></div>
+		<p>Ultimate Spider-Man airs on Disney XD. It started airing on April 1, 2012. Spider-Man/Peter Parker is voiced by Drake Bell while Noriaki Sugiyama in Japanese Dub. Controversially, Spider-Man is depicted as breaking the fourth wall and the critical and fan reception of the series has been mixed. The show's third season is subtitled "Web-Warriors", and a fourth season has been renewed, bringing the episode count to 104, making it the longest lasting Marvel cartoon.
+        <br />
+        This incarnation is more dim and childish than previous versions: while still a science geek like the previous incarnations, he tends to have trouble understanding more complex areas. His sense of humor is less refined and more puerile, laughing at simple rhymes and toilet humor. He is less experienced, less responsible, and much more of a goofball than his comic or previous animated counterpart, but can still show a fair degree of competence when the situation calls for it and learns from his mistakes.</p>
+	     <br />	
+		 
+		<div id="head"> <h3>The Avengers: Earth's Mightiest Heroes</h3></div>
+		<p>Spider-Man appears in The Avengers: Earth's Mightiest Heroes season 2 episode "Along Came a Spider...", as well as some episodes afterwards. Keaton was initially set to reprise the role, and had even recorded his dialogue with the rest of the voice cast, but he was then redubbed by Bell for currently unknown reasons. His Japanese voice actor is Noriaki Sugiyama.</p>
+		<br />
+		
+		<div id="head"> <h3>Phineas and Ferb</h3></div>
+		<p>Spider-Man appeared alongside Thor, Iron Man and the Hulk in the summer 2013 animated special Phineas and Ferb: Mission Marvel. Drake Bell reprised his role.</p>
+		<br />
+		
+		
+		<div id="head"> <h3>Lego Marvel Super Heroes: Maximum Overload</h3></div>
+		<p>ISpider-Man appears in this special, voiced by Drake Bell.</p>
+		<br />
+		
+		<div id="head"> <h3>Avengers Assemble</h3></div>
+		<p>Spider-Man appears in four episodes of Avengers Assemble with Drake Bell reprising his role. In "Hulk's Day out", where he is selling hot dogs. In "Avengers Disassembled" Spider-Man temporarily joins the Avengers as Captain America's replacement, but leaves the team near the end of the episode due to Captain America and Iron Man being unable to work together. In "Avengers Underground", Spider-Man is among the heroes the Squadron Supreme imprison, although in his case, he is actually occupied with one of their drones. Finally in "Avengers World", Spider-Man appears at the end of the episode on a holographic globe as one of the heroes Iron Man and Captain America consider potential Avengers.</p>
+		<br />
+		
+		<div id="head"> <h3>Marvel Disk Wars: The Avengers</h3></div>
+		<p>>Spider-Man is a major character in the series, voiced by Shinji Kawada.</p>
+		<br />
+		
+		<div id="head"> <h3>Lego Marvel Super Heroes: Avengers Reassembled</h3></div>
+		<p>Spider-Man appears in this special, voiced by Benjamin Diskin.</p>
+		<br />
+		
+		
+		
+		</div>
+		<footer>
+           <img src="images/foot_bkgd.png" /> 
+		   <h1>&#169 Designed & Developed by-Venkat Shiva Reddy Kotha, Saurabh Sharma, Diksha Chawla, Tania, Gurpreet Singh</h1>
+		  
+        </footer>
+</body>
+</html>
