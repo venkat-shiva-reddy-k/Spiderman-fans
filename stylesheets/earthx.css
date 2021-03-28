@@ -1,0 +1,192 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+html {
+	background: url(../images/body_bkgd.png) repeat-x;
+    background-color:black;
+	padding: 0px 0px 40px 0px;
+	text-align: center;
+}
+
+footer {
+	clear: both;
+    padding-top: 30px;
+	color: rgb(225, 228, 230);
+	
+	border: none;
+}
+
+nav ul {
+	margin-left: 0;
+	padding-top: 140px;
+    padding-left:195px;
+	text-align: left;
+	border: none;
+}
+
+nav ul li {
+	display: inline;
+	margin: 0 2px 0 0;
+	border: none;
+}
+
+nav ul li a {
+		color: #E7DBBA;
+	font-size: 1em;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+	padding: 8px 10px 8px 10px;
+	text-transform: uppercase;
+	border: none;
+}
+
+nav ul li a:hover {
+	
+	color: #fff;
+}
+aside.left {
+    float: left; 
+    top: 0px;
+    bottom:0px;
+    position:fixed;
+    padding-top:0;
+    
+}
+aside.right {
+    float: right; 
+    top: 0px;
+    bottom:0px;
+    right:0px;
+    position:fixed;
+    padding-top:0;
+    
+}
+#central {
+    
+    float:none; 
+    top:183px;
+    bottom:0px;
+    left:10;
+  
+    position:absolute;
+   
+    z-index :-1000;
+    
+}
+#logoTxt {
+	background: url(../images/Spiderman_logo.png) top right no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 220px;
+	width: 300px;
+	height: 151px;
+	border: none;
+}
+
+#fans h1{
+     position: absolute;
+	top: 80px;
+	left: 620px;
+	
+	height: 50px;
+	border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+     }
+#logo {
+	background: url(../images/Spider_Man_2.gif) top left no-repeat;
+	position: absolute;
+	top: 13px;
+	left: 1050px;
+	width: 300px;
+	height: 151px;
+	border: none;
+}
+
+#logo h1, #logoTxt h2 {
+	color: #fff;
+	font-size: 22px;
+	
+	text-align: center;
+}
+
+#logo h2 {
+	color: #fff;
+}
+
+#logo h1 span, #logoTxt h2 span {
+	display: inline;
+	position: absolute;
+	top: 80px;
+    left: 400;
+	width: 124px;
+	z-index: 9;
+	border: none;
+}
+#para{ 
+    text-align: left;
+    color: DodgerBlue;
+    top: 100px;
+    left: 100px;
+    right:0px;
+    padding-top:30px;
+    padding-left:200px;
+    padding-right:200px;
+    }
+#head h1 { 
+    color: red;
+    font-size: 40px;
+    font-family: Courier;
+    
+    }
+    #head h2 { 
+    color: red;
+    font-size: 30px;
+    font-family: Courier;
+    
+    }
+    #head h3 { 
+    color: red;
+    font-size: 20px;
+    font-family: Courier;
+    
+    }
+#middle{ 
+    
+    color: rgb(225, 228, 230);
+    left:150px;
+   
+    margin: 20px 0;
+    border: none;
+    text-align:center;
+    }
+#mid{
+    left:200px;
+    padding-left:50px;
+ }
+ iframe{
+    float:inherit; 
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;}
