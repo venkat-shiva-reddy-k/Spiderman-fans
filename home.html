@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>Spiderman fans club - Home</title>
+    <link rel="stylesheet" href="stylesheets/default.css" />
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="icon" href="images/514b00b1b4224.gif">
+	<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+	<script src="scripts/signup.js"></script>
+	<script src="scripts/myScript.js"></script>
+</head>
+
+<body>
+
+        <nav>
+            <ul>
+                <li><a id="home" href="home.html">Home</a></li>
+                <li><a id="av" href="alternateversions.html">Alternate Versions</a></li>
+                <li><a id="movies" href="movies.html">Movies</a></li>
+                <li><a id="tv" href="tvseries.html">Tv Series</a></li>
+                
+				<li><a id="games" href="games.html">Games</a></li>
+				<li><a id="signout" href="#" onclick="SignOut()">SignOut</a></li>
+             </ul>
+        </nav>
+		<aside class="left">
+		<img src="images/black_suit_spider-man.png" style="width:195px;height:400px;" /> 
+        </aside>
+		<aside class="right">
+		<img src="images/Spidey_1.png" style="width:195px;height:900px;" /> 
+        </aside>
+		<section id="central">
+		<img src="images/spiderman5.gif" style="width:960px;height:960px;" />
+		</section>
+		
+		<div id="logoTxt">
+           <h1><span></span></h1>
+           <h2><span></span></h2>
+        </div>
+		<div id="fans">
+		    <h1>FANS CLUB</h1>
+		</div>
+		<div id="logo">
+           <h1><span></span></h1>
+           <h2><span></span></h2>
+        </div>
+		
+		   <div id="para">
+		       <div id="head"> <h1>Spiderman-The Legendary Hero</h1>
+                </div>
+		         <p>Spider-Man is a fictional superhero appearing in American comic books published by Marvel Comics existing in
+				 its shared universe. The character was created by writer-editor Stan Lee and writer-artist Steve Ditko, and first
+				 appeared in the anthology comic book Amazing Fantasy #15 (Aug. 1962) in the Silver Age of Comic Books. Lee and Ditko 
+				 conceived the character as an orphan being raised by his Aunt May and Uncle Ben, and as a teenager, having to deal 
+				 with the normal struggles of adolescence in addition to those of a costumed crime-fighter. Spider-Man's creators gave 
+				 him super strength and agility, the ability to cling to most surfaces, shoot spider-webs using wrist-mounted devices 
+				 of his own invention, which he calls "web-shooters", and react to danger quickly with his "spider-sense", enabling him 
+				 to combat his foes.</p>
+				 
+                <p>When Spider-Man first appeared in the early 1960s, teenagers in superhero comic books were usually relegated to the 
+				role of sidekick to the protagonist. The Spider-Man series broke ground by featuring Peter Parker, the high school 
+				student behind Spider-Man's secret identity and with whose "self-obsessions with rejection, inadequacy, and loneliness" 
+				young readers could relate.While Spider-Man had all the makings of a sidekick, unlike previous teen heroes such as 
+				Bucky and Robin, Spider-Man had no superhero mentor like Captain America and Batman; he thus had to learn for himself that 
+				"with great power there must also come great responsibility"—a line included in a text box in the final panel of the first 
+				Spider-Man story but later retroactively attributed to his guardian, the late Uncle Ben.</p>
+				
+                <p>Marvel has featured Spider-Man in several comic book series, the first and longest-lasting of which is titled 
+				The Amazing Spider-Man. Over the years, the Peter Parker character has developed from shy, nerdy high school student
+				 to troubled but outgoing college student, to married high school teacher to, in the late 2000s, a single freelance 
+				 photographer. In the 2010s, he joins the Avengers, Marvel's flagship superhero team. Spider-Man's nemesis Doctor 
+				 Octopus also took on the identity for a story arc spanning 2012–2014, following a body swap plot in which Peter 
+				 appears to die.Separately, Marvel has also published books featuring alternate versions of Spider-Man, including 
+				 Spider-Man 2099, which features the adventures of Miguel O'Hara, the Spider-Man of the future; Ultimate Spider-Man, 
+				 which features the adventures of a teenaged Peter Parker in an alternate universe; and Ultimate Comics Spider-Man, 
+				 which depicts the teenager Miles Morales, who takes up the mantle of Spider-Man after Ultimate Peter Parker's 
+				 supposed death.</p>
+				 
+				 <p>Spider-Man is one of the most popular and commercially successful superheroes.As Marvel's flagship 
+				 character and company mascot, he has appeared in countless forms of media, including several animated and 
+				 live-action television series, syndicated newspaper comic strips, and in a series of films. In films, Spider-Man 
+				 has been portrayed by actors Tobey Maguire (2002–2007) and Andrew Garfield (2012–2014),while Tom Holland will 
+				 portray him in the Marvel Cinematic Universe, beginning with Captain America: Civil War in 2016. Reeve Carney starred 
+				 as Spider-Man in the 2010 Broadway musical Spider-Man: Turn Off the Dark.Spider-Man has been well received as a 
+				 superhero and comic book character and is usually ranked as one of the greatest comic book characters of all time 
+				 alongside DC Comics characters such as Superman and Batman.</p>
+				 
+				<div id="head"> <h1>Publication history</h1>
+                 <h2>Creation and development</h2>
+				 </div>
+            <p>In 1962, with the success of the Fantastic Four, Marvel Comics editor and head writer Stan Lee was casting 
+			about for a new superhero idea. He said the idea for Spider-Man arose from a surge in teenage demand for comic books, 
+			and the desire to create a character with whom teens could identify.In his autobiography, Lee cites the 
+			non-superhuman pulp magazine crime fighter the Spider (see also The Spider's Web and The Spider Returns) as a great 
+			influence, and in a multitude of print and video interviews, Lee stated he was further inspired by seeing a 
+			spider climb up a wall—adding in his autobiography that he has told that story so often he has become unsure of whether 
+			or not this is true.Though at the time teenage superheroes were usually given names ending with "boy", Lee says 
+			he chose "Spider-Man" because he wanted the character to age as the series progressed, and moreover felt the name 
+			"Spider-Boy" would have made the character sound inferior to other superheroes.At that time Lee had to get only the 
+			consent of Marvel publisher Martin Goodman for the character's approval. In a 1986 interview, Lee described in detail his 
+			arguments to overcome Goodman's objections.Goodman eventually agreed to a Spider-Man tryout in what Lee in 
+			numerous interviews recalled as what would be the final issue of the science-fiction and supernatural anthology series 
+			Amazing Adult Fantasy, which was renamed Amazing Fantasy for that single issue, #15 (cover-dated August 1962, on sale 
+			June 5, 1962).In particular, Lee stated that the fact that it had already been decided that Amazing Fantasy would 
+			be cancelled after issue #15 was the only reason Goodman allowed him to use Spider-Man.While this was indeed the 
+			final issue, its editorial page anticipated the comic continuing and that "The Spiderman [sic] ... will appear every 
+			month in Amazing."</p>
+			<div id="middle">
+			<img src="images/wentworth.png" style="width:195px;height:200px;" /> 
+           <p>Richard Wentworth a.k.a. the Spider in the pulp magazine The Spider. 
+		    Stan Lee stated that it was the name of this character that inspired him to create a character 
+		    that would become Spider-Man.</p></div>
+			
+			<p>Regardless, Lee received Goodman's approval for the name Spider-Man and the "ordinary teen" concept, and approached 
+			artist Jack Kirby. As comics historian Greg Theakston recounts, Kirby told Lee about an unpublished character on which 
+			he had collaborated with Joe Simon in the 1950s, in which an orphaned boy living with an old couple finds a magic ring 
+			that granted him superhuman powers. Lee and Kirby "immediately sat down for a story conference", Theakston writes, and 
+			Lee afterward directed Kirby to flesh out the character and draw some pages.Steve Ditko would be the inker.
+			When Kirby showed Lee the first six pages, Lee recalled, "I hated the way he was doing it! Not that he did it badly—it 
+			just wasn't the character I wanted; it was too heroic".Lee turned to Ditko, who developed a visual style Lee found 
+			satisfactory. Ditko recalled:</p>
+			
+			<p id="mid">One of the first things I did was to work up a costume. A vital, visual part of the character. I had to 
+			know how he looked ... before I did any breakdowns. For example: A clinging power so he wouldn't have hard shoes or 
+			boots, a hidden wrist-shooter versus a web gun and holster, etc. ... I wasn't sure Stan would like the idea of covering 
+			the character's face but I did it because it hid an obviously boyish face. It would also add mystery to the 
+			character.</p>
+			
+			<p>Although the interior artwork was by Ditko alone, Lee rejected Ditko's cover art and commissioned Kirby to pencil 
+			a cover that Ditko inked.As Lee explained in 2010, "I think I had Jack sketch out a cover for it because I always 
+			had a lot of confidence in Jack's covers."</p>
+			
+			<p>n an early recollection of the character's creation, Ditko described his and Lee's contributions in a mail interview 
+			with Gary Martin published in Comic Fan #2 (Summer 1965): "Stan Lee thought the name up. I did costume, web gimmick on 
+			wrist & spider signal."At the time, Ditko shared a Manhattan studio with noted fetish artist Eric Stanton, an art-school 
+			classmate who, in a 1988 interview with Theakston, recalled that although his contribution to Spider-Man was "almost nil", 
+			he and Ditko had "worked on storyboards together and I added a few ideas. But the whole thing was created by Steve on his 
+			own... I think I added the business about the webs coming out of his hands."</p>
+			
+			<p>irby disputed Lee's version of the story, and claimed Lee had minimal involvement in the character's creation. 
+			According to Kirby, the idea for Spider-Man had originated with Kirby and Joe Simon, who in the 1950s had developed 
+			a character called the Silver Spider for the Crestwood Publications comic Black Magic, who was subsequently not used.
+			Simon, in his 1990 autobiography, disputed Kirby's account, asserting that Black Magic was not a factor, and that he 
+			(Simon) devised the name "Spider-Man" (later changed to "The Silver Spider"), while Kirby outlined the character's 
+			story and powers. Simon later elaborated that his and Kirby's character conception became the basis for Simon's Archie 
+			Comics superhero the Fly.Artist Steve Ditko stated that Lee liked the name Hawkman from DC Comics, and that 
+			"Spider-Man" was an outgrowth of that interest.</p>
+			
+			<p>Simon concurred that Kirby had shown the original Spider-Man version to Lee, who liked the idea and assigned 
+			Kirby to draw sample pages of the new character but disliked the results—in Simon's description, 
+			"Captain America with cobwebs".Writer Mark Evanier notes that Lee's reasoning that Kirby's character 
+			was too heroic seems unlikely—Kirby still drew the covers for Amazing Fantasy #15 and the first issue of 
+			The Amazing Spider-Man. Evanier also disputes Kirby's given reason that he was "too busy" to also draw Spider-Man 
+			in addition to his other duties since Kirby was, said Evanier, "always busy".Neither Lee's nor Kirby's 
+			explanation explains why key story elements like the magic ring were dropped; Evanier states that the most plausible 
+			explanation for the sudden change was that Goodman, or one of his assistants, decided that Spider-Man as drawn and 
+			envisioned by Kirby was too similar to the Fly.</p>
+			
+			<p>Author and Ditko scholar Blake Bell writes that it was Ditko who noted the similarities to the Fly. 
+			Ditko recalled that, "Stan called Jack about the Fly," adding that "[d]ays later, Stan told me I would be penciling 
+			the story panel breakdowns from Stan's synopsis". It was at this point that the nature of the strip changed. "Out 
+			went the magic ring, adult Spider-Man and whatever legend ideas that Spider-Man story would have contained". Lee gave 
+			Ditko the premise of a teenager bitten by a spider and developing powers, a premise Ditko would expand upon to the point 
+			he became what Bell describes as "the first work for hire artist of his generation to create and control the narrative 
+			arc of his series". On the issue of the initial creation, Ditko states, "I still don't know whose idea was Spider-Man".
+			Kirby noted in a 1971 interview that it was Ditko who "got Spider-Man to roll, and the thing caught on because of what 
+			he did".Lee, while claiming credit for the initial idea, has acknowledged Ditko's role, stating, "If Steve wants 
+			to be called co-creator, I think he deserves [it]".He has further commented that Ditko's costume design was key to 
+			the character's success; since the costume completely covers Spider-Man's body, people of all races could visualize 
+			themselves inside the costume and thus more easily identify with the character.Writer Al Nickerson believes "that 
+			Stan Lee and Steve Ditko created the Spider-Man that we are familiar with today [but that] ultimately, Spider-Man came 
+			into existence, and prospered, through the efforts of not just one or two, but many, comic book creators".</p>
+			
+			<div id="head"> <h1></h1>
+                 <h2>Powers, skills, and equipment</h2>
+				 </div>
+			<p>A bite from a radioactive spider triggers mutations in Peter Parker's body, granting him superpowers.In the original 
+			Lee-Ditko stories, Spider-Man has the ability to cling to walls, superhuman strength, a sixth sense ("spider-sense") 
+			that alerts him to danger, perfect balance and equilibrium, as well as superhuman speed and agility.The character 
+			was originally conceived by Stan Lee and Steve Ditko as intellectually gifted, but later writers have depicted his 
+			intellect at genius level.Academically brilliant, Parker has expertise in the fields of applied science, chemistry, 
+			physics, biology, engineering, mathematics, and mechanics. With his talents, he sews his own costume to conceal his 
+			identity, and he constructs many devices that complement his powers, most notably mechanical web-shooters.This mechanism 
+			ejects an advanced adhesive, releasing web-fluid in a variety of configurations, including a single rope-like strand to 
+			swing from, a net to snare or bind enemies, and a simple glob to foul machinery or blind an opponent. He can also weave 
+			the web material into simple forms like a shield, a spherical protection or hemispherical barrier, a club, or a hang-glider 
+			wing. Other equipment include spider-tracers (spider-shaped adhesive homing beacons keyed to his own spider-sense), a 
+			light beacon which can either be used as a flashlight or project a "Spider-Signal" design, and a specially modified camera 
+			that can take pictures automatically.</p>
+			
+			<div id="head"> <h1></h1>
+                 <h2>Other versions</h2>
+				 </div>
+		    <p>Due to Spider-Man's popularity in the mainstream Marvel Universe, publishers have been able to introduce different 
+			variations of Spider-Man outside of mainstream comics as well as reimagined stories in many other multiversed spinoffs 
+			such as Ultimate Spider-Man, Spider-Man 2099, and Spider-Man: India. Marvel has also made its own parodies of Spider-Man 
+			in comics such as Not Brand Echh, which was published in the late 1960s and featured such characters as Peter Pooper 
+			alias Spidey-Man, and Peter Porker, the Spectacular Spider-Ham, who appeared in the 1980s. The fictional character 
+			has also inspired a number of deratives such as a manga version of Spider-Man drawn by Japanese artist Ryoichi Ikegami 
+			as well as Hideshi Hino's The Bug Boy, which has been cited as inspired by Spider-Man.Also the French comic 
+			Télé-Junior published strips based on popular TV series. In the late 1970s, the publisher also produced original 
+			Spider-Man adventures. Artists included Gérald Forton, who later moved to America and worked for Marvel.</p>
+			</div>      
+        <footer>
+           <img src="images/foot_bkgd.png" /> 
+		   <h1>&#169 Designed & Developed by-Venkat Shiva Reddy Kotha, Saurabh Sharma, Diksha Chawla, Tania, Gurpreet Singh</h1>
+		  
+        </footer>
+		
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>Spiderman fans club - Home</title>
+    <link rel="stylesheet" href="stylesheets/movies.css" />
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="icon" href="images/Spider-Man-Shattered.png">
+	<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+	<script src="scripts/signup.js"></script>
+	<script src="scripts/myScript.js"></script>
+</head>
+
+<body>
+
+        <nav>
+            <ul>
+                <li><a id="home" href="home.html">Home</a></li>
+                <li><a id="av" href="alternateversions.html">Alternate Versions</a></li>
+                <li><a id="movies" href="movies.html">Movies</a></li>
+                <li><a id="tv" href="tvseries.html">Tv Series</a></li>
+                
+				<li><a id="games" href="games.html">Games</a></li>
+				<li><a id="signout" href="#" onclick="SignOut()">SignOut</a></li>
+            </ul>
+        </nav>
+		<aside class="left">
+		<img src="images/black_suit_spider-man.png" style="width:195px;height:400px;" /> 
+        </aside>
+		<aside class="right">
+		<img src="images/spide.png" style="width:195px;height:400px;" /> 
+        </aside>
+		
+		
+		<div id="logoTxt">
+           <h1></h1>
+           <h2><span></span></h2>
+        </div>
+		<div id="fans">
+		    <h1>FANS CLUB</h1>
+		</div>
+		<div id="logo">
+           <h1><span></span></h1>
+           <h2><span></span></h2>
+        </div>
+		
+	 <div id="para">
+		   <div id="head"> <h1>Live Action Movies</h1>
+		   
+		   </div>
+		
+		
+		   <br />
+		
+		
+	    <div id="head"> <h1>1.Spider-Man (2002) </h1></div>
+		<object width="960" height="540" data="https://www.youtube.com/embed/0KW8stZ2jSQ" frameborder="0" allowfullscreen></object>
+		<div id="head"> <h3>Director</h3></div><p>Sam Raimi</p>
+		<div id="head"> <h3>Producer(s)</h3></div><p>Avi Arad,Laura Ziskin</p>
+		<div id="head"> <h3>Executive producer(s)</h3></div>Stan Lee,Kevin Feige,Joseph M. Caracciolo</p>
+		<div id="head"> <h3>Writer(s)</h3></div><p>Screenplay by Alvin Sargent Story by Alfred Gough,Miles Millar,Michael Chabon</p>
+		<div id="head"> <h3>Composer(s)</h3></div><p>Danny Elfman</p>
+		<div id="head"> <h3>Director of photography</h3></div><p>Bill Pope</p>
+		<div id="head"> <h3>Editor(s)</h3></div><p>Bob Murawski</p>
+		<a href="spiderman1.html">Read More</a>
+		
+		<div id="head"> <h2>2.Spider-Man 2 (2004)</h2></div>
+		<object width="960" height="540" data="https://www.youtube.com/embed/CA5vsCnLm34" frameborder="0" allowfullscreen></object>
+		<div id="head"> <h3>Director</h3></div><p>Sam Raimi</p>
+		<div id="head"> <h3>Producer(s)</h3></div><p>Avi Arad,Laura Ziskin</p>
+		<div id="head"> <h3>Executive producer(s)</h3></div><p>Stan Lee,Kevin Feige,Joseph M. Caracciolo</p>
+		<div id="head"> <h3>Writer(s)</h3></div><p>Screenplay by Alvin Sargent Story by Alfred Gough,Miles Millar,Michael Chabon</p>
+		<div id="head"> <h3>Composer(s)</h3></div><p>Danny Elfman</p>
+		<div id="head"> <h3>Director of photography</h3></div><p>Bill Pope</p>
+		<div id="head"> <h3>Editor(s)</h3></div><p>Bob Murawski</p>
+		<a href="spiderman2.html">Read More</a>
+		
+		<div id="head"> <h2>3.Spider-Man 3 (2007)</h2></div>
+		<object width="960" height="540" data="https://www.youtube.com/embed/ixKgheL-myM" frameborder="0" allowfullscreen></object>
+		<div id="head"> <h3>Director</h3></div><p>Sam Raimi</p>
+		<div id="head"> <h3>Producer(s)</h3></div><p>Avi Arad,Laura Ziskin,Grant Curtis</p>
+		<div id="head"> <h3>Executive producer(s)</h3></div><p>Stan Lee,Kevin Feige,Joseph M. Caracciolo</p>
+		<div id="head"> <h3>Writer(s)</h3></div><p>Screenplay by Sam Raimi,Ivan Raimi,Alvin Sargent Story by Sam Raimi,Ivan Raimi</p>
+		<div id="head"> <h3>Composer(s)</h3></div><p>Christopher Young</p>
+		<div id="head"> <h3>Director of photography</h3></div><p>Bill Pope</p>
+		<div id="head"> <h3>Editor(s)</h3></div><p>Bob Murawski</p>
+		<a href="spiderman3.html">Read More</a>
+		
+		<div id="head"> <h2>4.The Amazing Spider-Man (2012)</h2></div>
+		<object width="960" height="540" data="https://www.youtube.com/embed/FWP8TdXdFZg" frameborder="0" allowfullscreen></object>
+		<div id="head"> <h3>Director</h3></div><p>Marc Webb</p>
+		<div id="head"> <h3>Producer(s)</h3></div><p>Laura Ziskin,Avi Arad,Matt Tolmach</p>
+		<div id="head"> <h3>Executive producer(s)</h3></div><p>Stan Lee,Kevin Feige,Michael Grillo</p>
+		<div id="head"> <h3>Writer(s)</h3></div><p>Screenplay by James Vanderbilt,Alvin Sargent,Steve Kloves Story by James Vanderbilt</p>
+		<div id="head"> <h3>Composer(s)</h3></div><p>James Horner</p>
+		<div id="head"> <h3>Director of photography</h3></div><p>John Schwartzman</p>
+		<div id="head"> <h3>Editor(s)</h3></div><p>Alan Edward Bell,Michael McCusker,Pietro Scalia</p>
+		<a href="spiderman4.html">Read More</a>
+		<br />
+				
+		<div id="head"> <h2>5.The Amazing Spider-Man 2 (2014)</h2></div>
+		<object width="960" height="540" data="https://www.youtube.com/embed/DlM2CWNTQ84" frameborder="0" allowfullscreen></object>
+		<div id="head"> <h3>Director</h3></div><p>Marc Webb</p>
+		<div id="head"> <h3>Producer(s)</h3></div><p>Avi Arad,Matt Tolmach</p>
+		<div id="head"> <h3>Executive producer(s)</h3></div><p>E. Bennett Walsh,Stan Lee,Alex Kurtzman,Roberto Orci</p>
+		<div id="head"> <h3>Writer(s)</h3></div><p>Screenplay byAlex Kurtzman,Roberto Orci,Jeff Pinkner Story by Alex Kurtzman,Roberto Orci,Jeff Pinkner,James Vanderbilt</p>
+		<div id="head"> <h3>Composer(s)</h3></div><p>Hans Zimmer,Pharrell Williams,Johnny Marr,Junkie XL,Mike Einziger,Steve Mazzaro,Andrew Kawczynski</p>
+		<div id="head"> <h3>Director of photography</h3></div><p>Dan Mindel</p>
+		<div id="head"> <h3>Editor(s)</h3></div><p>Pietro Scalia</p>
+		<a href="spiderman5.html">Read More</a>
+			<br />
+		
+		
+		</div>
+		<footer>
+           <img src="images/foot_bkgd.png" /> 
+		   <h1>&#169 Designed & Developed by-Venkat Shiva Reddy Kotha, Saurabh Sharma, Diksha Chawla, Tania, Gurpreet Singh</h1>
+		  
+        </footer>
+</body>
+</html>
